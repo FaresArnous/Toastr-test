@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toastr Test</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="buttons">
+      <button onclick="showToast(successMessage, 'success')">Success</button>
+      <button onclick="showToast(errorMessage, 'error')">Error</button>
+      <button onclick="showToast(invalidMessage, 'invalid')">Invalid</button>
+    </div>
+    <div id="toastbox"></div>
+  </body>
+</html>
